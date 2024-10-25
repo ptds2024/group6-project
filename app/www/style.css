@@ -1,0 +1,98 @@
+/* www/styles.css */
+
+/* Darker and subtler gradient for the sidebar */
+.main-sidebar { 
+  background: linear-gradient(135deg, #1A1A1A, #0D0D0D); 
+}
+
+/* Link colors */
+.sidebar-menu li a { 
+  color: #D1D1D1; 
+}
+.sidebar-menu li a:hover { 
+  background-color: #333333; 
+  color: #FFFFFF; 
+}
+.sidebar-menu li.active > a { 
+  background-color: #5C677D; 
+  color: #FFFFFF; 
+}
+
+/* Custom CSS for Dark Theme using Color Palette */
+body, .content-wrapper, .main-header, .main-sidebar { 
+  background-color: #001233; 
+  color: #FFFFFF; 
+}
+
+.box { 
+  background-color: rgba(52, 65, 92, 0.85); 
+  border: none; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.box-header { 
+  color: #5C677D;  
+  font-size: 20px; 
+  font-weight: bold; 
+  border-bottom: 2px solid #5C677D; 
+  background: linear-gradient(135deg, #1A1A1A, #0D0D0D); 
+}
+
+.value-box { 
+  background-color: rgba(52, 65, 92, 0.85); 
+  color: #FFFFFF; 
+  border-radius: 10px; 
+  padding: 15px; 
+  margin-bottom: 20px; 
+}
+
+.plotly { 
+  background-color: rgba(0, 18, 51, 0.85); 
+  border-radius: 10px; 
+}
+
+.btn { 
+  background-color: #0466C8; 
+  color: white; 
+  font-weight: bold; 
+  border-radius: 5px; 
+}
+
+.reactable-row, .reactable-header { 
+  background-color: rgba(52, 65, 92, 0.85) !important; 
+  color: #FFFFFF !important; 
+}
+
+.reactable-row:hover { 
+  background-color: rgba(92, 103, 125, 0.85) !important; 
+}
+
+.reactable { 
+  margin: 10px; 
+  border: 1px solid #444444; 
+}
+
+/* Top header bar adjustments */
+.main-header .navbar {
+  background-color: #5C677D; 
+  border-bottom: 2px solid #5C677D;
+}
+
+.main-header .logo {
+  background-color: #3A4A5A;  
+  color: #FFFFFF;
+}
+
+/* Change the title background */
+.main-header .navbar-brand {
+  background-color: #3A4A5A;  
+  color: #FFFFFF;
+}
+
+/* Stronger gradients for the background */
+.content-wrapper { 
+  background: linear-gradient(135deg, #001233, #002855, #001233); 
+  background-size: cover; 
+}
